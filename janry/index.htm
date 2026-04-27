@@ -1,0 +1,132 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+  <title>Жанры</title>
+   <link rel="shortcut icon" href="../img/dsdl6767.gif"  type="image/x-gif">
+</head>
+<style>
+ body{
+
+      background-color: #CCC8A7;
+
+     }
+.dd1{
+     text-align:  center;
+   width: 70%
+   margin-left: auto;
+   margin-right: auto;
+   background-color:     #CCC8A7;
+   color:   #000000;
+   font-size: 2em;
+   border:  #A1B3CC inset px;
+   border-radius: 10px;
+   margin-top: 00px;
+  }
+
+
+.menu {
+  background: #555 url('images/menu-bg.jpg') repeat left top;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+.background {
+  background-image: url('images/chicago-night.jpg');
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover; /*Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока.*/
+}
+.menu ul {
+  border-top: 1px solid #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #555;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;/* Устанавливает интерлиньяж (межстрочный интервал) текста, отсчет ведется от базовой линии шрифта. При обычных обстоятельствах расстояние между строками зависит от вида и размера шрифта и определяется браузером автоматически. Отрицательное значение межстрочного расстояния не допускается.*/
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu li:hover {
+  cursor: pointer;/* Устанавливает форму курсора «ручку»*/
+  background-color: #555;
+  }
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+</style>
+<body>
+<div class="menu">
+    <div class="icon-close">
+			<img src="../img/11.gif" width="50">
+	</div>
+
+   <ul>
+            <li><a  href="../index.htm">главная</a></li>
+            <li><a href="../history/ihdex.htm">История</a></li>
+            <li><a href="../zm/text1.htm">музыканты</a></li>
+            <li><a href="../composers/index.htm">Композиторы</a></li>
+            <li><a href="#">жанры</a></li>
+            <li><a href="../OB/index.htm">об авторе</a></li>
+
+		</ul>
+
+
+</div>
+<!-- Main body -->
+	<div class="background">
+
+		<div class="icon-menu">
+			<img src="../img/men.gif" width="40">
+
+		</div>
+	</div>
+   <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+	<script src="menu.js">
+    </script>
+
+<div  class="dd1">
+<h1>Жанры</h1>
+ <p><a href="DZ.htm">Джаз</a></p>
+ <p><a href="indexTo.htm">Танго</a></p>
+  <p><a href="KM.htm">Классическая музыка</a></p>
+ <p><a href=""> </a></p>
+</div>
+</body>
+
+</html>
